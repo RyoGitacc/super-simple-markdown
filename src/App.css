@@ -1,0 +1,64 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.header{
+  text-align: center;
+  font-size: 30px;
+  background-color: #202f55;
+  color: white;
+  position: relative;
+  margin-bottom: 10px;
+  height: 70px;
+  box-sizing: border-box;
+  line-height: 70px;
+}
+.markdown-guide{
+  border: 1px solid black;
+  padding: 10px;
+}
+.cheatsheet-btn{
+  position: absolute;
+  top:50%;
+  right: 10px;
+  transform: translateY(-50%);
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.markdown-area{
+  display: flex;
+}
+.markdown-input{
+  width: 50%;
+  height: calc(100vh - 80px);
+  padding: 10px;
+  box-sizing: border-box;
+}
+.textarea{
+  width: 100%;
+  height: auto;
+  min-height:100%;
+  resize: none;
+  box-sizing: border-box;
+  overflow: auto;
+  border: none;
+  font-size: 20px;
+}
+.textarea:focus{
+  outline: none;
+}
+.markdown-output{
+  width: 50%;
+  height: calc(100vh - 80px);
+  padding: 10px;
+  box-sizing: border-box;
+  background-color:#fdeff2;
+  /* white-space: pre-line; */
+}
+
+
+p{
+  margin: 0 0 5px 0;
+  font-size: 20px;
+}
